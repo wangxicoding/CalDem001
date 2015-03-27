@@ -1,10 +1,10 @@
-#include "caculate.h"
+#include "include/caculate.h"
 #include <iostream>
 #include <stdio.h>
 #include <math.h>
 #include <vector>
-#include "celement.h"
-#include "contact.h"
+#include "include/celement.h"
+#include "include/contact.h"
 #include <fstream>
 #include <QDebug>
 

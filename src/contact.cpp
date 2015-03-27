@@ -1,4 +1,4 @@
-#include "contact.h"
+#include "include/contact.h"
 
 CONTACT::CONTACT(CElement *cElement, bool spring)
 {

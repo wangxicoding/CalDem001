@@ -1,4 +1,4 @@
-#include "inputdlg.h"
+#include "include/inputdlg.h"
 #include "ui_inputdlg.h"
 #include <QDebug>
 #include <QMessageBox>

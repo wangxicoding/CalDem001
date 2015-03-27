@@ -1,7 +1,7 @@
-#include "celement.h"
+#include "include/celement.h"
 #include "math.h"
-#include "inputdlg.h"
-#include "contact.h"
+#include "include/inputdlg.h"
+#include "include/contact.h"
 #include <QMap>
 #include <stdlib.h>
 #include <iostream>
