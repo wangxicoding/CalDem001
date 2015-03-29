@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    connect(&wb, SIGNAL(sendProgressValue(int)), this, SLOT(setProgressValue(int)));
 }
 
 MainWindow::~MainWindow()
@@ -23,14 +24,13 @@ void MainWindow::on_pushButton_8_clicked()
     this->close();
 }
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::on_startCalc_clicked()
 {
     CElement::input = &wa;
     wb.maintemp();
 }
 
-void MainWindow::on_startCalc_clicked()
+void MainWindow::setProgressValue(int i)
 {
-    CElement::input = &wa;
-    wb.maintemp();
+    ui->progressBar->setValue(i);
 }

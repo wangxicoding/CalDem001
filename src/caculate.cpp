@@ -208,7 +208,7 @@ void Caculate::maintemp()
             }
         }
 
-
+        emit sendProgressValue( ( i + 1) * 100 / maxStep);
     }
     //cout << "Hello world!" << endl;
     //return 0;

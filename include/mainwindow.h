@@ -28,9 +28,9 @@ private slots:
 
     void on_pushButton_8_clicked();
 
-    void on_pushButton_clicked();
-
     void on_startCalc_clicked();
+
+    void setProgressValue(int);
 
 private:
     Ui::MainWindow *ui;

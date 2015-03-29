@@ -14,6 +14,7 @@ public:
     void calculate();
 
 signals:
+    void sendProgressValue(int);
 
 public slots:
     void maintemp();
